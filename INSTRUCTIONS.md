@@ -21,7 +21,10 @@ connection.
 
 ## Playing the game
 
-Send the following message:
+In order to play the game `Postman` was used to create `WebSocket Requests`.
+This feature can be found under `Postman -> Create New -> WebSocket Request`.
+
+Send the following message to `localhost:8080/game`:
 
 ```json
 {
@@ -68,7 +71,7 @@ And here's an example response:
 
 Milliseconds since epoch is used as a timestamp format.
 
-To send a ping, use the following message format:
+To send a ping, use the following message format and send it to `localhost:8080/game`:
 
 ```json
 {
@@ -94,7 +97,7 @@ The response format will look like this:
 Services that hold business the logic have been covered with tests. In order to run them,
 execute the `sbt test` command.
 
-## Possible improvements for the future
+## Improvements for the future
 
 - Add tests for the WebSocket endpoint
 - Add more type safety by using value classes
