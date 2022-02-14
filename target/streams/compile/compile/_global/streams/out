@@ -1,0 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0mF:\Programming\onair-game\src\main\scala\com\onairentertainment\GameServer.scala:40:18: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: BinaryText(), StringText()[0m
+[0m[[0m[33mwarn[0m] [0m[0m        .evalMap {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
