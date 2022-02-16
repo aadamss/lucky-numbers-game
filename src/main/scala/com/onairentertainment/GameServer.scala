@@ -56,6 +56,8 @@ class GameServer(
                   } yield ()
               }
               .getOrElse(responseQueue.offer(Error("Unknown message").some))
+
+          case _ => IO.pure(())
         }
 
     HttpRoutes.of[IO] {
