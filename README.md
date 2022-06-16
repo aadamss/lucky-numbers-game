@@ -1,17 +1,3 @@
-# Coding interview purpose
-
-We in On Air Entertainment like to see how developers writing a code, that's why we base our interviews mostly on practical parts and code than on theoretical. 
-It is expected that candidate will have a live coding interview and only some theoretical questions are expected as an addition to what is written.
-Interview purpose is to demonstrate how a candidate can solve a task & how fluent candidate is with technologies used by On Air Entertainment.
-
-**NOTE**:
-Coding task is sent to the candidate in advance, so the candidate can be prepared about expectations. 
-It isn't prohibited to write a part or full solution for the practical task before the interview.
-It isn't expected that full solution will be written in result.
-
-_If you started with a solution, then please publish your solution as a private repository in GitHub and grant
- access to OnAirEntertainment-Scala user before the interview._
-
 # Technologies to use
 
 Solution can be based (but not limited) on the following technologies:
